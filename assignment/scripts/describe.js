@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// we make a variable called name and set it to Dane as a string.
+// Then we see if name is set to Mary.  
+// It is not so we log  'How do you do'
 //
 
 //CODE
@@ -45,10 +45,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We make a variable called secret.
+// We make a second variable called code and set it to the number 123.
+// We see if code is equal to the number 123.  It is, so we set secret to 'super'.
+//We then set code to 123 muptiplied by 2, which is 256. We see if code is now greater than 250. It is, so we set
+//secret to 'duper'.  The console.log output is duper.  
 
 //CODE
 /*
@@ -69,12 +70,12 @@ console.log(secret)
 
 */
 
-// 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
-
+// We make a variable called isStudent and set it as true.
+// We make a second variable called age and set it to the number 34.
+// we make a third variable called zip and set it to the number 55407.
+// First we consider if isStudent is true and zip is greater than 80000.  isStudent is true, but zip is less than 80000,
+//so we consider if isStudent is false or the age is less than 30.  Neither are true, so we consider if just isStudent is true.  It is.
+//We log "Welcome to Prime!" Since we have a condition thats accurate we stop there without going to the else condition.
 //CODE
 /*
 let isStudent = true;
@@ -129,15 +130,20 @@ if (number >= 2) {
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
-/*
-let colorOne = 'red';
-let colorTwo = 'blue';
+/* 
+set colorOne to 'red' and colorTwo to blue; //FIX - colorOne is set to 'red' but the instructions say it is set to 'blue',
+// colorTwo is set to 'blue' but the instrucions say set to 'red'  so change colorOne to 'blue' and colorTwo to Red
 let mix = true;
-
+let colorOne = 'red'; 
+let colorTwo = 'blue'
 if (mix === true) {
-  colorOne = 'purple';
+  colorOne = 'purple'; // FIX - The instructions say that both colorOne and colorTwo should be set to purple if mix is equal to true.  
+// The code only has colorOne changing to purple so we should change colorTwo to purple as well.  
+
 }
 */
+// The instructions say that both colorOne and colorTwo should be set to purple if mix is equal to true.  
+// The code only has colorOne changing to purple so we should change colorTwo to purple as well.  
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
@@ -147,10 +153,13 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 || time >= 4) //FIX - || means or, and the direcitons say and.  We should change || to && which is the way to write and.
+{ 
   console.log('throw away the food!');
 }
 */
+
+//FIX - 
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -160,10 +169,14 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
+if(minAge <= age)// FIX -  The instrucions say if age is greater than or equal to minAge, but our code says minAge is less than or
+equal to age.  It should be written (age >= minAge)
+{
+  console.log('no entry'); //FIX - our instructions say that if age is greater than or euqal to minAge we should log 'enter'.  Our code 
+  says the opposite.  So our first outcome should log 'enter'
 } else {
-  console.log('enter');
+  console.log('enter'); //FIX - it doesn't say anything in the directions about what the outcome should be if age is less than minAge, but 
+  assuming the else is the other outcome we should change the second log to 'no entry'.
 }
 */
 
