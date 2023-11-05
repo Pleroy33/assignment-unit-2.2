@@ -28,7 +28,7 @@ if (number >= 2) {
 // 1. WRITE YOUR DESCRIPTION HERE
 // we make a variable called name and set it to Dane as a string.
 // Then we see if name is set to Mary.  
-// It is not so we log  'How do you do'
+// It is not so the console.log output is 'How do you do'
 //
 
 //CODE
@@ -75,7 +75,7 @@ console.log(secret)
 // we make a third variable called zip and set it to the number 55407.
 // First we consider if isStudent is true and zip is greater than 80000.  isStudent is true, but zip is less than 80000,
 //so we consider if isStudent is false or the age is less than 30.  Neither are true, so we consider if just isStudent is true.  It is.
-//We log "Welcome to Prime!" Since we have a condition thats accurate we stop there without going to the else condition.
+//The console.log output is "Welcome to Prime!" Since we have a condition thats accurate we stop there without going to the else condition.
 //CODE
 /*
 let isStudent = true;
